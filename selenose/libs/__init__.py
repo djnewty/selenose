@@ -20,7 +20,7 @@ def selenium_server_url(version):
     '''
     Get the SELENIUM server jar URL.
     '''
-    return 'http://selenium.googlecode.com/files/%s' % selenium_server_bn(version)
+    return 'https://selenium-release.storage.googleapis.com/3.8/selenium-server-standalone-3.8.0.jar'
 
 def selenium_server_path(version=__selenium_version__):
     '''
